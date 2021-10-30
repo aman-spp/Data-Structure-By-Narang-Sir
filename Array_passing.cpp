@@ -4,7 +4,7 @@ using namespace std;
 void printarray(int a[], int n)
 {
     // int n = sizeof(a)/sizeof(int);   ///////////  [a] ---> {1,2,3,4,5,6,7,8,9} so size of a equal size of pointer variable 8 or 4;
-    // so n = either 1 or 2.  so passing n is necessary traversing array.
+    // so n = either 1 or 2.  so passing n is necessary for traversing array.
     for(int i=0;i<n;i++)
     {
         cout<<"["<<a[i]<<"]"<<" ";
